@@ -12,15 +12,15 @@ services:
       MYSQL_USER: mariadb
       MYSQL_PASSWORD: mariadb
 
-  phpmyadmin:
-    image: phpmyadmin:5.2.1
-    restart: always
-    ports:
-      - 8080:80
-    environment:
-      - PMA_ARBITRARY=1
-    depends_on:
-      - db
+  # phpmyadmin:
+  #   image: phpmyadmin:5.2.1
+  #   restart: always
+  #   ports:
+  #     - 8080:80
+  #   environment:
+  #     - PMA_ARBITRARY=1
+  #   depends_on:
+  #     - db
 
 volumes:
   mariadb-data:
