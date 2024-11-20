@@ -7,7 +7,7 @@ Selamat mengerjakan!
 2. Segala perubahan code dilakukan di codespaces lalu commit, jangan diubah di repo github-nya langsung agar tidak terjadi error/conflict.
 3. Jika ada error pada codespace dan FAQ, bisa cek pada FAQ di bawah atau tanyakan ke asisten praktikum yang bertugas.
 4. Jangan melakukan pekerjaan lain ataupun merubah file konfigurasi di repo github ini dan codespaces di luar praktikum dan/atau di luar intruksi asisten praktikum.
-5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `db`, username `root`, dan password `root`
+5. Jika ingin menggunakan database MySQL lokal codespace, gunakan server host `localhost`, username `root`, dan password kosong.
 
 ## Cara Penggunaan Codespaces
 
@@ -36,7 +36,7 @@ Selamat mengerjakan!
 3. Tunggu hingga loading selesai (sampai keluar halaman atau keluar error)
 4. Jika tidak ada error terjadi, maka akan disuguhi halaman login PHPMyAdmin jika masih pertama kali membukanya setelah building codespace
 5. `Lewati step ini jika ingin menggunakan database MySQL lokal codespace.` Jika ingin menggunakan database eksternal seperti Aiven atau layanan lainnya, isikan server host, username, dan password dari yang tertera pada website dashboard Aiven
-6. Jika ingin menggunakan database MySQL lokal codespace, isikan server host dengan `db`, username `root`, dan password `root`
+6. Jika ingin menggunakan database MySQL lokal codespace, isikan server host dengan `localhost`, username `root`, dan password kosong
 7. Jika login berhasil, maka dashboard PHPMyAdmin akan keluar
 
 ### Mengupload file dan folder ke codespaces
