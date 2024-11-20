@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Menjalankan server
+sudo ln -s $PWD /var/www/html
 sudo a2enmod proxy > /dev/null 2>&1
 sudo a2enmod proxy_http > /dev/null 2>&1
 sudo a2enmod rewrite > /dev/null 2>&1
 sudo apache2ctl stop > /dev/null 2>&1
-DOCROOT=$PWD
+DOCROOT=/var/www/html
 sudo bash -c "cat <<EOF > /etc/apache2/sites-available/000-default.conf
 <VirtualHost *:80>
     DocumentRoot ${DOCROOT}
